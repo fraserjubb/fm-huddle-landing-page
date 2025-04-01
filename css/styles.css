@@ -82,7 +82,11 @@ body {
   line-height: 1.7;
   letter-spacing: 0;
 
-  background-color: var(--clr-primary-violet);
+  background: var(--clr-primary-violet) url("/assets/images/bg-desktop.svg");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-position-x: 38%;
+
   color: white;
 }
 
@@ -102,13 +106,14 @@ MAIN:
 */
 
 .container {
+  /* height: 100vh; */
   max-width: 1440px;
   margin: var(--40px) auto;
   padding: 0 96px;
 }
 
 .header {
-  margin-bottom: 3.125rem;
+  margin-bottom: 7rem;
 }
 
 .header__logo {
