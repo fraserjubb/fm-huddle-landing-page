@@ -17,6 +17,7 @@
   --18px: 1.125rem;
   --20px: 1.25rem;
   --24px: 1.5rem;
+  --26px: 1.625rem;
   --40px: 2.5rem;
 }
 
@@ -99,8 +100,11 @@ svg {
 MAIN:
 ********************************
 */
+
 .container {
-  padding: var(--40px) 6.25rem;
+  max-width: 1440px;
+  margin: var(--40px) auto;
+  padding: 0 96px;
 }
 
 .header {
@@ -108,14 +112,31 @@ MAIN:
 }
 
 .hero {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  /* margin: 0 6.25rem; */
   margin-bottom: var(--20px);
+}
+
+.hero-left {
+  flex: 1;
+  max-width: 43.5rem;
+}
+.hero-right {
+  flex: 1;
+  max-width: 32.5rem;
+}
+
+.hero__image {
 }
 
 .hero__title {
   font-family: "Poppins", sans-serif;
   font-size: var(--40px);
   font-weight: 600;
-  line-height: 1.8;
+  line-height: 1.6;
   margin-bottom: var(--24px);
 }
 
@@ -151,6 +172,7 @@ FOOTER:
 ********************************
 */
 .footer {
+  /* margin-right: 96px; */
 }
 
 .footer__social-nav {
