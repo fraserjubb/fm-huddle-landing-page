@@ -1,0 +1,120 @@
+:root {
+  /* Colors: */
+  --clr-dark: #020717;
+  --clr-light: #f1f5f9;
+  --clr-slate: #94a3b8;
+  --clr-primary-violet: #674baf;
+  --clr-primary-magenta: #e882e8;
+  --clr-attribution: #3e52a3;
+
+  /* Pixel Sizes: */
+  --4px: 0.25rem;
+  --8px: 0.5rem;
+  --10px: 0.625rem;
+  --12px: 0.75rem;
+  --14px: 0.875rem;
+  --16px: 1rem;
+  --18px: 1.125rem;
+  --20px: 1.25rem;
+  --24px: 1.5rem;
+  --40px: 2.5rem;
+}
+
+/* 
+********************************
+SELF-HOSTING FONT:
+********************************
+*/
+
+/* VARIABLE FONT: */
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/fonts/OpenSans-VariableFont_wdth\,wght.woff2")
+    format("woff2 supports variations");
+  src: url("/assets/fonts/OpenSans-VariableFont_wdth\,wght.woff2")
+    format("woff2-variations");
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 
+********************************
+GLOBAL CSS VALUES:
+********************************
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif; /* Or serif*/
+  font-size: var(--16px);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0;
+
+  background-color: hotpink;
+  /* color: ; */
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 
+********************************
+MAIN:
+********************************
+*/
+h1 {
+  font-size: var(--24px);
+  text-align: center;
+  color: var(--clr-slate);
+}
+
+/* 
+********************************
+FOOTER:
+********************************
+*/
+
+/*UPDATE VALUES!*/
+.attribution {
+  text-align: center;
+  font-size: var(--12px);
+  color: var(--clr-attribution);
+  margin-bottom: var(--24px);
+}
+
+/* LINKS */
+/* Default State */
+.attribution a:link {
+  color: var(--clr-attribution);
+  text-decoration: none;
+}
+
+/* Visited State */
+.attribution a:visited {
+  color: var(--clr-attribution);
+}
+
+/* State On Hover / Whilst being clicked */
+.attribution a:hover,
+.attribution a:active {
+  opacity: 75%;
+}
