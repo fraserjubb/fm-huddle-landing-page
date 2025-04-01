@@ -111,6 +111,10 @@ MAIN:
   margin-bottom: 3.125rem;
 }
 
+.header__logo {
+  max-width: 12.5rem;
+}
+
 .hero {
   /* margin: 0 auto; */
   display: flex;
