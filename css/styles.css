@@ -23,7 +23,7 @@
 
 /* 
 ********************************
-SELF-HOSTING FONT:
+SELF-HOSTING FONTS:
 ********************************
 */
 /* STATIC FONT: */
@@ -83,9 +83,7 @@ body {
   letter-spacing: 0;
 
   background: var(--clr-primary-violet) url("/assets/images/bg-desktop.svg");
-  background-size: contain;
-  /* background-repeat: no-repeat; */
-  background-position-x: 38%;
+  background-size: cover;
 
   color: white;
 }
