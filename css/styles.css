@@ -104,15 +104,16 @@ MAIN:
 */
 
 .container {
+  height: 100vh;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
-  max-width: 1440px;
   margin: 0 auto;
   padding: 0 96px;
 }
 
+/* Header */
 .header {
   margin-bottom: 7rem;
 }
@@ -121,12 +122,11 @@ MAIN:
   max-width: 12.5rem;
 }
 
+/* Hero Section */
 .hero {
-  /* margin: 0 auto; */
   display: flex;
   justify-content: center;
   gap: 2rem;
-  /* margin: 0 6.25rem; */
   margin-bottom: var(--20px);
 }
 
@@ -182,9 +182,6 @@ MAIN:
 FOOTER:
 ********************************
 */
-.footer {
-  /* margin-right: 96px; */
-}
 
 .footer__social-nav {
   display: flex;
@@ -208,7 +205,6 @@ FOOTER:
 .footer__social:hover,
 .footer__social:active {
   border: 1px solid var(--clr-primary-magenta);
-
   color: var(--clr-primary-magenta);
 }
 
