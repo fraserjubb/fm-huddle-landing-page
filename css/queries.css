@@ -1,0 +1,90 @@
+/* LAPTOPS AND SMALLER MONITORS */
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+/* MOBILE DEVICES */
+@media (max-width: 880px) {
+  .container {
+    height: 100%;
+    padding: 0 35px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .header {
+    margin-bottom: 4rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--40px);
+  }
+
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__title {
+    font-size: var(--24px);
+  }
+
+  .hero__description {
+    line-height: 1.6;
+    font-size: var(--16px);
+  }
+
+  .hero__btn {
+    font-size: var(--12px);
+    height: var(--40px);
+
+    margin-bottom: var(--40px);
+
+    box-shadow: 10px 10px 31px -4px rgba(0, 0, 0, 0.3);
+  }
+
+  .footer__social-nav {
+    justify-content: center;
+  }
+}
+
+/* IPAD PRO AND SIMILAR DEVICES */
+@media (min-width: 900px) and (min-height: 1350px) {
+  .container {
+    height: 100%;
+    padding: 0 35px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .header {
+    margin-bottom: 4rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--40px);
+
+    margin-bottom: var(--40px);
+  }
+
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__btn {
+    box-shadow: 10px 10px 31px -4px rgba(0, 0, 0, 0.3);
+  }
+
+  .footer__social-nav {
+    justify-content: center;
+  }
+}
