@@ -105,12 +105,12 @@ MAIN:
 
 .container {
   height: 100%;
-  max-width: 1440px;
+  max-width: 90rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 70px auto;
-  padding: 0 96px;
+  margin: 4.375rem auto;
+  padding: 0 6rem;
 }
 
 /* Header */
@@ -170,7 +170,7 @@ MAIN:
   color: var(--clr-primary-violet);
   text-decoration: none;
 
-  box-shadow: 10px 10px 31px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--10px) var(--10px) var(--26px) -4px rgba(0, 0, 0, 0.5);
 
   transition: all 0.3s;
 }
@@ -186,10 +186,6 @@ MAIN:
 FOOTER:
 ********************************
 */
-/* .attribution {
-  margin-top: var(--40px);
-} */
-
 .footer__social-nav {
   display: flex;
   justify-content: end;
@@ -234,6 +230,8 @@ FOOTER:
 .attribution a:link {
   color: white;
   text-decoration: none;
+
+  transition: all 0.3s;
 }
 
 /* Visited State */
