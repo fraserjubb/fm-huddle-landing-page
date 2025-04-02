@@ -142,6 +142,7 @@ MAIN:
 }
 
 .hero__image {
+  max-width: 100%;
 }
 
 .hero__title {
