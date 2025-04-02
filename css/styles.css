@@ -104,12 +104,12 @@ MAIN:
 */
 
 .container {
-  height: 100vh;
+  height: 100%;
   max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: 90px auto;
   padding: 0 96px;
 }
 
@@ -169,6 +169,10 @@ MAIN:
   background-color: white;
   color: var(--clr-primary-violet);
   text-decoration: none;
+
+  box-shadow: 10px 10px 31px -4px rgba(0, 0, 0, 0.5);
+
+  transition: all 0.3s;
 }
 
 .hero__btn:hover,
@@ -182,6 +186,9 @@ MAIN:
 FOOTER:
 ********************************
 */
+/* .attribution {
+  margin-top: var(--40px);
+} */
 
 .footer__social-nav {
   display: flex;
@@ -193,13 +200,19 @@ FOOTER:
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+
   width: var(--40px);
   height: var(--40px);
+
+  border: 1px solid white;
   border-radius: 50%;
+
   color: white;
   text-decoration: none;
+
   cursor: pointer;
+
+  transition: all 0.3s;
 }
 
 .footer__social:hover,
