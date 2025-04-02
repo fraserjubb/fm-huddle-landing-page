@@ -1,16 +1,15 @@
 /* LAPTOPS AND SMALLER MONITORS */
-@media (max-width: 1300px) {
+@media (max-width: 81.25em) {
   .container {
     padding: 0 20px;
   }
 }
 
 /* MOBILE DEVICES */
-@media (max-width: 880px) {
+@media (max-width: 55em) {
   .container {
-    height: 100%;
-    padding: 0 35px;
-    margin: 50px auto;
+    padding: 0 2.188rem;
+    margin: 3.125rem auto;
     text-align: center;
   }
 
@@ -54,11 +53,11 @@
 }
 
 /* IPAD PRO AND SIMILAR DEVICES */
-@media (min-width: 900px) and (min-height: 1350px) {
+@media (min-width: 56.25em) and (min-height: 84.38em) {
   .container {
     height: 100%;
-    padding: 0 35px;
-    margin: 50px auto;
+    padding: 0 2.188rem;
+    margin: 3.125rem auto;
     text-align: center;
   }
 
