@@ -109,13 +109,13 @@ MAIN:
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 90px auto;
+  margin: 70px auto;
   padding: 0 96px;
 }
 
 /* Header */
 .header {
-  margin-bottom: 7rem;
+  margin-bottom: 5.5rem;
 }
 
 .header__logo {
