@@ -1,7 +1,7 @@
 /* LAPTOPS AND SMALLER MONITORS */
 @media (max-width: 81.25em) {
   .container {
-    padding: 0 20px;
+    padding: 0 var(--20px);
   }
 }
 

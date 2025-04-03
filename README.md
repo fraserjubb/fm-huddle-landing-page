@@ -22,8 +22,8 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 
 ### Project Links
 
-- Solution URL: [Click Here](url)
-- Live Site URL: [Click Here](url)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/huddle-landing-page-solution---challenge-7-gumehd--p2)
+- Live Site URL: [Click Here](https://fm-huddlelanding-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
 ## My Process
@@ -40,7 +40,7 @@ In this particular project:
 
 1. I'm much more happy with my style guide process in terms of the notes I add when examining the design on Figma.
 
-2. I found the older Figma file a little more challenging as much of the information is missing when compared to more recent challenges on this website. It does make it a little more challenging as have to go by sight for a lot of it, but hopefully a skill I can continue to develop.
+2. I found the older Figma file a little more challenging as much of the information is missing when compared to more recent challenges on frontend mentor. It does make it a little more challenging as have to judge by sight for a lot of it, but hopefully a skill I can continue to develop.
 
 ### Continued Development
 
